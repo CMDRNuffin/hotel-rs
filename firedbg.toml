@@ -1,0 +1,7 @@
+[workspace.members]
+
+[[targets]]
+name = "hotel"
+target.type = "binary"
+target.name = "hotel"
+argv = [ "-s", "a_test_rng_seed", "-c", "2", "~/Downloads/100000_rooms.json" ]
